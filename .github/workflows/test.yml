@@ -13,7 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-14, ubuntu-latest]
+        # Linux users install the .deb/.rpm from the release instead of Homebrew.
+        os: [macos-14]
     steps:
       - uses: actions/checkout@v4
         with:
