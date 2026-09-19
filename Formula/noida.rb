@@ -2,24 +2,24 @@
 class Noida < Formula
   desc "Terminal IDE built around Claude Code and Codex"
   homepage "https://github.com/its-banana-coder/noida"
-  version "0.1.2-alpha"
+  version "0.1.3-alpha"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.2-alpha/noida-aarch64-apple-darwin.tar.gz"
-      sha256 "59e78449399c40a9bf0ef77228538b5dc57e87c409bc8a5afbf415509b741e7a"
+      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.3-alpha/noida-aarch64-apple-darwin.tar.gz"
+      sha256 "03e9ba1100743af2640075f5c71d404af6119a591ecc9e0d5bdc07aa495af45a"
     end
     on_intel do
-      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.2-alpha/noida-x86_64-apple-darwin.tar.gz"
-      sha256 "6b693302dd6ecb3d956b0c5ed9828ba42169eb6f8b418a3f37ab69dd63a78cbe"
+      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.3-alpha/noida-x86_64-apple-darwin.tar.gz"
+      sha256 "9674f186e5284a97833010b71bb7ca497e309c33320157ad55870078da8f2999"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.2-alpha/noida-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8fb574a953570382729ce8a8c48194159961ba1f2f877e2eb99b816eb871ef08"
+      url "https://github.com/its-banana-coder/noida/releases/download/v0.1.3-alpha/noida-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ab57d9ee5dbc1bd90d2faf050039a6536093a9bea2e0edd7701084ef09e336f6"
     end
   end
 
